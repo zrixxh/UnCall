@@ -2,98 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UnCall - BO6 Fan Hub</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      background-color: #101820;
-      color: #d1d5db;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .section-title {
-      @apply text-3xl font-bold border-l-4 border-green-500 pl-4 mb-4;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UnCall - BO6 Hub</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="min-h-screen">
-  <!-- Header -->
-  <header class="bg-green-700 text-white py-6 shadow-md">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-      <h1 class="text-4xl font-extrabold tracking-wide">UnCall</h1>
-      <nav class="space-x-4">
-        <a href="#weapons" class="hover:underline">Weapons</a>
-        <a href="#maps" class="hover:underline">Maps</a>
-        <a href="#patches" class="hover:underline">Patches</a>
-      </nav>
-    </div>
+<body>
+  <header>
+    <h1>UnCall</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="weapons.html">Weapons</a>
+      <a href="maps.html">Maps</a>
+      <a href="patches.html">Patches</a>
+    </nav>
   </header>
-
-  <!-- Hero Banner -->
-  <section class="bg-cover bg-center h-72 flex items-center justify-center" style="background-image: url('https://www.callofduty.com/cdn/shop/articles/2024-hero.jpg?v=1659551574');">
-    <div class="bg-black bg-opacity-60 p-6 rounded">
-      <h2 class="text-3xl md:text-5xl font-bold text-green-400">Welcome to UnCall</h2>
-      <p class="mt-2 text-gray-300 text-lg">Your #1 BO6 Fan Hub for Loadouts, Maps, and Updates</p>
-    </div>
-  </section>
-
-  <!-- Weapons Section -->
-  <section id="weapons" class="max-w-6xl mx-auto px-4 py-12">
-    <h3 class="section-title">Featured Weapons</h3>
-    <div class="grid md:grid-cols-3 gap-6">
-      <div class="bg-gray-800 p-4 rounded shadow hover:scale-105 transition">
-        <h4 class="text-xl font-bold text-green-400">M4 Reaper</h4>
-        <p class="text-sm mt-2">High accuracy AR with low recoil and fast reload. Great for mid-range combat.</p>
-      </div>
-      <div class="bg-gray-800 p-4 rounded shadow hover:scale-105 transition">
-        <h4 class="text-xl font-bold text-green-400">GHOST SMG</h4>
-        <p class="text-sm mt-2">Stealth SMG with suppressor. Best in close-range infiltration missions.</p>
-      </div>
-      <div class="bg-gray-800 p-4 rounded shadow hover:scale-105 transition">
-        <h4 class="text-xl font-bold text-green-400">Vulture Sniper</h4>
-        <p class="text-sm mt-2">Deadly long-range sniper with thermal optics. One-shot potential.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Maps Section -->
-  <section id="maps" class="max-w-6xl mx-auto px-4 py-12">
-    <h3 class="section-title">Multiplayer Maps</h3>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-gray-900 p-4 rounded shadow">
-        <img src="https://images.alphacoders.com/120/1209795.jpg" alt="Urban Strike" class="rounded mb-2" />
-        <h4 class="text-lg font-bold text-green-400">Urban Strike</h4>
-        <p class="text-sm">A tight, high-rise city map designed for fast-paced SMG and shotgun play.</p>
-      </div>
-      <div class="bg-gray-900 p-4 rounded shadow">
-        <img src="https://images6.alphacoders.com/122/1226254.jpg" alt="Desert Siege" class="rounded mb-2" />
-        <h4 class="text-lg font-bold text-green-400">Desert Siege</h4>
-        <p class="text-sm">Wide open spaces with sniper towers and armored vehicles rolling through.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Patches Section -->
-  <section id="patches" class="max-w-6xl mx-auto px-4 py-12">
-    <h3 class="section-title">Recent Patches</h3>
-    <ul class="space-y-4">
-      <li class="bg-gray-800 p-4 rounded">
-        <h5 class="text-green-400 font-bold">v1.03 - Weapon Balancing (May 20, 2025)</h5>
-        <p class="text-sm">M4 Reaper damage reduced by 5%, SMGs get hipfire accuracy boost. New operator skins added.</p>
-      </li>
-      <li class="bg-gray-800 p-4 rounded">
-        <h5 class="text-green-400 font-bold">v1.02 - New Map Release: Desert Siege</h5>
-        <p class="text-sm">Introduced Desert Siege with vehicle combat and sniper lanes. Bug fixes for team spawning.</p>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-green-700 text-white py-6 mt-12">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <p>&copy; 2025 UnCall - A BO6 Fan Project. Not affiliated with Activision.</p>
-    </div>
+  <main>
+    <h2>Welcome to UnCall - Your BO6 Hub</h2>
+    <p>Latest updates, weapons, maps, and more!</p>
+    <section>
+      <h3>Recent Highlights</h3>
+      <ul>
+        <li><a href="weapons.html">New Weapon: XM-9 Tactical</a></li>
+        <li><a href="maps.html">Map Spotlight: Warzone Suburb</a></li>
+        <li><a href="patches.html">Patch v1.05 Released</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 UnCall. Not affiliated with Activision.</p>
   </footer>
 </body>
 </html>
-
